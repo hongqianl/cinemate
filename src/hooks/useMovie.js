@@ -12,7 +12,7 @@ export function useMovie(id) {
             setData(json);
         };
         fetchMovie();
-    }, []);
+    }, [url]);
 
       return {data};
   }  
