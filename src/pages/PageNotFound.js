@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import  PageNotFoundImage  from '../assets/page_not_found.jpg';
 import { Link } from 'react-router-dom';
 import { useTitle} from '../hooks/useTitle';

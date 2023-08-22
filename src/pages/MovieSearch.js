@@ -1,5 +1,5 @@
 import { Card } from '../components/Card';
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useFetch } from '../hooks/useFetch';
 import { useSearchParams } from 'react-router-dom';
 import { useTitle} from '../hooks/useTitle';
